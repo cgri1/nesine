@@ -1,0 +1,43 @@
+.virtual-table .ant-table-container:before,
+  .virtual-table .ant-table-container:after {
+    display: none;
+  }
+  .virtual-table-cell {
+    box-sizing: border-box;
+    padding: 16px;
+    border-bottom: 1px solid #e8e8e8;
+    background: #FFF;
+  }
+ [data-theme="dark"]  .virtual-table-cell {
+    box-sizing: border-box;
+    padding: 16px;
+    border-bottom: 1px solid #303030;
+    background: #141414;
+  }
+
+.selected-cell .grid-cell-MS1,
+  .selected-cell .grid-cell-MSx,
+    .selected-cell .grid-cell-Alt,
+      .selected-cell .grid-cell-Üst,
+        .selected-cell .grid-cell-CS1X,
+          .selected-cell .grid-cell-CS12,
+            .selected-cell .grid-cell-CSX2 {
+              background-color: yellow;
+              color: white;
+            }
+
+.basket-div .ant-card {
+  background: #919191 !important;
+  position: absolute;
+  bottom: 0px;
+  right: 20px;
+  border: 3px solid #919191;
+}
+
+.ant-card-body{
+  padding: 10px;
+}
+
+.ant-divider{
+  border-top: 1px solid black;
+}
