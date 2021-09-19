@@ -6,6 +6,7 @@ import ResizeObserver from 'rc-resize-observer';
 import classNames from 'classnames';
 import { Table, Card, Divider, Row } from 'antd';
 import Context from '../store';
+import { CaretDownOutlined, CaretUpOutlined } from '@ant-design/icons';
 
 const events = require('../../data/bulten_data.json').Events;
 const idOfEvents = Object.keys(events);
@@ -16,6 +17,7 @@ const dataSource = [];
 export function Home(props) {
   let scrollY = document.body.offsetHeight - 55;
   const [tableWidth, setTableWidth] = useState(0);
+  const [hidden, setHidden] = useState(false);
 
   const { state, dispatch } = useContext(Context);
 
@@ -313,8 +315,12 @@ export function Home(props) {
         />
       </ResizeObserver>
       <div className="basket-div">
-        <Card>
-          {state.basketValues.map(data => {
+        <Card title="Sepetteki Urunler" extra={
+          hidden ?
+            <CaretUpOutlined onClick={() => state.basketValues.length > 0 && setHidden(!hidden)} /> :
+            <CaretDownOutlined onClick={() => state.basketValues.length > 0 && setHidden(!hidden)} />
+        } style={{ width: "300px" }}>
+          {!hidden && state.basketValues.map(data => {
             total = total * Number(data.value);
             return (
               <div>
@@ -328,8 +334,8 @@ export function Home(props) {
               </div>
             )
           })}
-          {state.basketValues.length > 0 && <Divider style={{ fontSize: "24px" }} />}
-          <span style={{ fontSize: "24px" }}>Toplam Tutar :{total}</span>
+          {!hidden && state.basketValues.length > 0 && <Divider style={{ fontSize: "24px" }} />}
+          {!hidden && state.basketValues.length > 0 && <span style={{ fontSize: "20px" }}>Toplam Tutar: {total}</span>}
         </Card>
       </div>
     </Row>
