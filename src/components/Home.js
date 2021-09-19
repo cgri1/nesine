@@ -292,7 +292,6 @@ export function Home(props) {
       dispatch({ type: 'PUSH_BASKET', value: newValue })
     }
   }
-  console.log(state.basketValues)
   let total = 1;
 
   return (

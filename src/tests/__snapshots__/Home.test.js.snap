@@ -1,0 +1,347 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home page snapshot 1`] = `
+<div
+  className="ant-row"
+  style={Object {}}
+>
+  <div
+    className="ant-table-wrapper virtual-table"
+  >
+    <div
+      className="ant-spin-nested-loading"
+    >
+      <div
+        className="ant-spin-container"
+      >
+        <div
+          className="ant-table ant-table-fixed-header"
+        >
+          <div
+            className="ant-table-container"
+          >
+            <div
+              className="ant-table-header"
+              style={
+                Object {
+                  "overflow": "hidden",
+                }
+              }
+            >
+              <table
+                style={
+                  Object {
+                    "tableLayout": "fixed",
+                    "visibility": null,
+                  }
+                }
+              >
+                <colgroup>
+                  <col
+                    style={
+                      Object {
+                        "width": 360,
+                      }
+                    }
+                  />
+                  <col
+                    style={
+                      Object {
+                        "width": 150,
+                      }
+                    }
+                  />
+                </colgroup>
+                <thead
+                  className="ant-table-thead"
+                >
+                  <tr>
+                    <th
+                      className="ant-table-cell"
+                      colSpan={null}
+                      rowSpan={null}
+                      style={Object {}}
+                    >
+                      Event Count: 3000
+                    </th>
+                    <th
+                      className="ant-table-cell"
+                      colSpan={null}
+                      rowSpan={null}
+                      style={Object {}}
+                    >
+                      Yorumlar
+                    </th>
+                    <th
+                      className="ant-table-cell"
+                      colSpan={null}
+                      rowSpan={null}
+                      style={Object {}}
+                    >
+                       
+                    </th>
+                    <th
+                      className="ant-table-cell"
+                      colSpan={null}
+                      rowSpan={null}
+                      style={Object {}}
+                    >
+                      1
+                    </th>
+                    <th
+                      className="ant-table-cell"
+                      colSpan={null}
+                      rowSpan={null}
+                      style={Object {}}
+                    >
+                      x
+                    </th>
+                    <th
+                      className="ant-table-cell"
+                      colSpan={null}
+                      rowSpan={null}
+                      style={Object {}}
+                    >
+                      2
+                    </th>
+                    <th
+                      className="ant-table-cell"
+                      colSpan={null}
+                      rowSpan={null}
+                      style={Object {}}
+                    >
+                      Alt
+                    </th>
+                    <th
+                      className="ant-table-cell"
+                      colSpan={null}
+                      rowSpan={null}
+                      style={Object {}}
+                    >
+                      Üst
+                    </th>
+                    <th
+                      className="ant-table-cell"
+                      colSpan={null}
+                      rowSpan={null}
+                      style={Object {}}
+                    >
+                      H1
+                    </th>
+                    <th
+                      className="ant-table-cell"
+                      colSpan={null}
+                      rowSpan={null}
+                      style={Object {}}
+                    >
+                      1
+                    </th>
+                    <th
+                      className="ant-table-cell"
+                      colSpan={null}
+                      rowSpan={null}
+                      style={Object {}}
+                    >
+                      x
+                    </th>
+                    <th
+                      className="ant-table-cell"
+                      colSpan={null}
+                      rowSpan={null}
+                      style={Object {}}
+                    >
+                      2
+                    </th>
+                    <th
+                      className="ant-table-cell"
+                      colSpan={null}
+                      rowSpan={null}
+                      style={Object {}}
+                    >
+                      H2
+                    </th>
+                    <th
+                      className="ant-table-cell"
+                      colSpan={null}
+                      rowSpan={null}
+                      style={Object {}}
+                    >
+                      1-X
+                    </th>
+                    <th
+                      className="ant-table-cell"
+                      colSpan={null}
+                      rowSpan={null}
+                      style={Object {}}
+                    >
+                      1-2
+                    </th>
+                    <th
+                      className="ant-table-cell"
+                      colSpan={null}
+                      rowSpan={null}
+                      style={Object {}}
+                    >
+                      X-2
+                    </th>
+                    <th
+                      className="ant-table-cell"
+                      colSpan={null}
+                      rowSpan={null}
+                      style={Object {}}
+                    >
+                      Var
+                    </th>
+                    <th
+                      className="ant-table-cell"
+                      colSpan={null}
+                      rowSpan={null}
+                      style={Object {}}
+                    >
+                      Yok
+                    </th>
+                    <th
+                      className="ant-table-cell"
+                      colSpan={null}
+                      rowSpan={null}
+                      style={Object {}}
+                    >
+                      +99
+                    </th>
+                  </tr>
+                </thead>
+              </table>
+            </div>
+            <div
+              className="virtual-grid"
+              onScroll={[Function]}
+              style={
+                Object {
+                  "WebkitOverflowScrolling": "touch",
+                  "direction": "ltr",
+                  "height": -55,
+                  "overflow": "auto",
+                  "position": "relative",
+                  "width": 0,
+                  "willChange": "transform",
+                }
+              }
+            >
+              <div
+                style={
+                  Object {
+                    "height": 300008,
+                    "pointerEvents": undefined,
+                    "width": 1360,
+                  }
+                }
+              >
+                <div
+                  className="virtual-table-cell"
+                  style={
+                    Object {
+                      "height": 54,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": undefined,
+                      "top": 0,
+                      "width": 360,
+                    }
+                  }
+                >
+                  <span
+                    style={
+                      Object {
+                        "color": "red",
+                      }
+                    }
+                  >
+                    <span
+                      style={
+                        Object {
+                          "color": "green",
+                        }
+                      }
+                    >
+                      0
+                    </span>
+                     19.02.2019 Salı UEFA AVRUPA LİGİ
+                  </span>
+                </div>
+                <div
+                  className="virtual-table-cell"
+                  style={
+                    Object {
+                      "height": 54,
+                      "left": 360,
+                      "position": "absolute",
+                      "right": undefined,
+                      "top": 0,
+                      "width": 150,
+                    }
+                  }
+                >
+                  Yorumlar
+                </div>
+                <div
+                  className="virtual-table-cell"
+                  style={
+                    Object {
+                      "height": 54,
+                      "left": 0,
+                      "position": "absolute",
+                      "right": undefined,
+                      "top": 54,
+                      "width": 360,
+                    }
+                  }
+                >
+                  2001  13:27  Real Madrid - Bayern1
+                </div>
+                <div
+                  className="virtual-table-cell"
+                  style={
+                    Object {
+                      "height": 54,
+                      "left": 360,
+                      "position": "absolute",
+                      "right": undefined,
+                      "top": 54,
+                      "width": 150,
+                    }
+                  }
+                >
+                  Yorumlar
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="basket-div"
+  >
+    <div
+      className="ant-card ant-card-bordered"
+    >
+      <div
+        className="ant-card-body"
+        style={Object {}}
+      >
+        <span
+          style={
+            Object {
+              "fontSize": "24px",
+            }
+          }
+        >
+          Toplam Tutar :
+          1
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
